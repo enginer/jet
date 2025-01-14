@@ -1,8 +1,8 @@
 package postgres
 
 import (
-	"github.com/go-jet/jet/v2/internal/testutils"
-	"github.com/go-jet/jet/v2/qrm"
+	"github.com/enginer/jet/v2/internal/testutils"
+	"github.com/enginer/jet/v2/qrm"
 	"github.com/google/go-cmp/cmp"
 	"github.com/jackc/pgtype"
 	"github.com/stretchr/testify/require"
@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/go-jet/jet/v2/postgres"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/test_sample/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/test_sample/table"
+	. "github.com/enginer/jet/v2/postgres"
+	"github.com/enginer/jet/v2/tests/.gentestdata/jetdb/test_sample/model"
+	. "github.com/enginer/jet/v2/tests/.gentestdata/jetdb/test_sample/table"
 )
 
 func TestRangeTableSelect(t *testing.T) {

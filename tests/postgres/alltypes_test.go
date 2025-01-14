@@ -1,10 +1,10 @@
 package postgres
 
 import (
-	"github.com/go-jet/jet/v2/internal/utils/ptr"
+	"github.com/enginer/jet/v2/internal/utils/ptr"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-jet/jet/v2/qrm"
+	"github.com/enginer/jet/v2/qrm"
 	"testing"
 	"time"
 
@@ -12,12 +12,12 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/postgres"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/test_sample/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/test_sample/table"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/test_sample/view"
-	"github.com/go-jet/jet/v2/tests/testdata/results/common"
+	"github.com/enginer/jet/v2/internal/testutils"
+	. "github.com/enginer/jet/v2/postgres"
+	"github.com/enginer/jet/v2/tests/.gentestdata/jetdb/test_sample/model"
+	. "github.com/enginer/jet/v2/tests/.gentestdata/jetdb/test_sample/table"
+	"github.com/enginer/jet/v2/tests/.gentestdata/jetdb/test_sample/view"
+	"github.com/enginer/jet/v2/tests/testdata/results/common"
 )
 
 var AllTypesAllColumns = AllTypes.AllColumns.

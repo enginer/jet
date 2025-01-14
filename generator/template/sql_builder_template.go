@@ -2,8 +2,8 @@ package template
 
 import (
 	"fmt"
-	"github.com/go-jet/jet/v2/generator/metadata"
-	"github.com/go-jet/jet/v2/internal/utils/dbidentifier"
+	"github.com/enginer/jet/v2/generator/metadata"
+	"github.com/enginer/jet/v2/internal/utils/dbidentifier"
 	"path/filepath"
 	"slices"
 	"strings"

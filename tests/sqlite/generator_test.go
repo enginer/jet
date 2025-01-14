@@ -8,13 +8,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-jet/jet/v2/generator/metadata"
-	"github.com/go-jet/jet/v2/generator/sqlite"
-	"github.com/go-jet/jet/v2/generator/template"
-	"github.com/go-jet/jet/v2/internal/testutils"
-	sqlite2 "github.com/go-jet/jet/v2/sqlite"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/sqlite/sakila/model"
-	"github.com/go-jet/jet/v2/tests/internal/utils/repo"
+	"github.com/enginer/jet/v2/generator/metadata"
+	"github.com/enginer/jet/v2/generator/sqlite"
+	"github.com/enginer/jet/v2/generator/template"
+	"github.com/enginer/jet/v2/internal/testutils"
+	sqlite2 "github.com/enginer/jet/v2/sqlite"
+	"github.com/enginer/jet/v2/tests/.gentestdata/sqlite/sakila/model"
+	"github.com/enginer/jet/v2/tests/internal/utils/repo"
 )
 
 func TestGeneratedModel(t *testing.T) {
@@ -169,7 +169,7 @@ const actorSQLBuilderFile = `
 package table
 
 import (
-	"github.com/go-jet/jet/v2/sqlite"
+	"github.com/enginer/jet/v2/sqlite"
 )
 
 var Actor = newActorTable("", "actor", "")
@@ -287,7 +287,7 @@ const filmListSQLBuilderFile = `
 package view
 
 import (
-	"github.com/go-jet/jet/v2/sqlite"
+	"github.com/enginer/jet/v2/sqlite"
 )
 
 var FilmList = newFilmListTable("", "film_list", "")

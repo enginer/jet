@@ -2,7 +2,7 @@ package postgres
 
 import (
 	"context"
-	"github.com/go-jet/jet/v2/internal/utils/ptr"
+	"github.com/enginer/jet/v2/internal/utils/ptr"
 	"github.com/volatiletech/null/v8"
 	"testing"
 	"time"
@@ -10,11 +10,11 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/postgres"
-	"github.com/go-jet/jet/v2/qrm"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/table"
+	"github.com/enginer/jet/v2/internal/testutils"
+	. "github.com/enginer/jet/v2/postgres"
+	"github.com/enginer/jet/v2/qrm"
+	"github.com/enginer/jet/v2/tests/.gentestdata/jetdb/dvds/model"
+	. "github.com/enginer/jet/v2/tests/.gentestdata/jetdb/dvds/table"
 )
 
 var oneInventoryQuery = Inventory.
@@ -994,7 +994,7 @@ func TestScanIntoCustomBaseTypes(t *testing.T) {
 }
 
 // QueryContext panic when the scanned value is nil and the destination is a slice of primitive
-// https://github.com/go-jet/jet/issues/91
+// https://github.com/enginer/jet/issues/91
 func TestScanToPrimitiveElementsSlice(t *testing.T) {
 	tx, err := db.Begin()
 	require.NoError(t, err)
@@ -1036,7 +1036,7 @@ func TestScanToPrimitiveElementsSlice(t *testing.T) {
 	require.Len(t, dest[1].Title, 20)
 }
 
-// https://github.com/go-jet/jet/issues/127
+// https://github.com/enginer/jet/issues/127
 func TestValuerTypeDebugSQL(t *testing.T) {
 	type customer struct {
 		CustomerID null.Int32 `sql:"primary_key"`

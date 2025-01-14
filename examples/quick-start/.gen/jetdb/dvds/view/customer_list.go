@@ -8,7 +8,7 @@
 package view
 
 import (
-	"github.com/go-jet/jet/v2/postgres"
+	"github.com/enginer/jet/v2/postgres"
 )
 
 var CustomerList = newCustomerListTable("dvds", "customer_list", "")

@@ -1,6 +1,6 @@
 package sqlite
 
-import "github.com/go-jet/jet/v2/internal/jet"
+import "github.com/enginer/jet/v2/internal/jet"
 
 // Statement is common interface for all statements(SELECT, INSERT, UPDATE, DELETE, LOCK)
 type Statement = jet.Statement

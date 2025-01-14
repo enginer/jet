@@ -1,7 +1,7 @@
 package must
 
 import (
-	"github.com/go-jet/jet/v2/internal/utils/is"
+	"github.com/enginer/jet/v2/internal/utils/is"
 	"reflect"
 )
 

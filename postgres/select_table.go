@@ -1,6 +1,6 @@
 package postgres
 
-import "github.com/go-jet/jet/v2/internal/jet"
+import "github.com/enginer/jet/v2/internal/jet"
 
 // SelectTable is interface for postgres temporary tables like sub-queries, VALUES, CTEs etc...
 type SelectTable interface {

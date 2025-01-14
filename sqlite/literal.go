@@ -1,7 +1,7 @@
 package sqlite
 
 import (
-	"github.com/go-jet/jet/v2/internal/jet"
+	"github.com/enginer/jet/v2/internal/jet"
 	"time"
 )
 

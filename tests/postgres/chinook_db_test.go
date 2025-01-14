@@ -2,12 +2,12 @@ package postgres
 
 import (
 	"context"
-	"github.com/go-jet/jet/v2/internal/testutils"
-	"github.com/go-jet/jet/v2/internal/utils/ptr"
-	. "github.com/go-jet/jet/v2/postgres"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/chinook/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/chinook/table"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/chinook2/table"
+	"github.com/enginer/jet/v2/internal/testutils"
+	"github.com/enginer/jet/v2/internal/utils/ptr"
+	. "github.com/enginer/jet/v2/postgres"
+	"github.com/enginer/jet/v2/tests/.gentestdata/jetdb/chinook/model"
+	. "github.com/enginer/jet/v2/tests/.gentestdata/jetdb/chinook/table"
+	"github.com/enginer/jet/v2/tests/.gentestdata/jetdb/chinook2/table"
 	"github.com/stretchr/testify/require"
 	"testing"
 	"time"

@@ -1,11 +1,11 @@
 package postgres
 
 import (
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/postgres"
-	"github.com/go-jet/jet/v2/qrm"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/table"
+	"github.com/enginer/jet/v2/internal/testutils"
+	. "github.com/enginer/jet/v2/postgres"
+	"github.com/enginer/jet/v2/qrm"
+	"github.com/enginer/jet/v2/tests/.gentestdata/jetdb/dvds/model"
+	. "github.com/enginer/jet/v2/tests/.gentestdata/jetdb/dvds/table"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"

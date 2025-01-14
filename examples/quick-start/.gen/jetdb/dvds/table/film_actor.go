@@ -8,7 +8,7 @@
 package table
 
 import (
-	"github.com/go-jet/jet/v2/postgres"
+	"github.com/enginer/jet/v2/postgres"
 )
 
 var FilmActor = newFilmActorTable("dvds", "film_actor", "")

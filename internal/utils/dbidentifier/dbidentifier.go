@@ -1,7 +1,7 @@
 package dbidentifier
 
 import (
-	"github.com/go-jet/jet/v2/internal/3rdparty/snaker"
+	"github.com/enginer/jet/v2/internal/3rdparty/snaker"
 	"strings"
 	"unicode"
 )

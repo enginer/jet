@@ -3,21 +3,21 @@ package postgres
 import (
 	"context"
 	"database/sql"
-	"github.com/go-jet/jet/v2/internal/utils/ptr"
+	"github.com/enginer/jet/v2/internal/utils/ptr"
 	"testing"
 	"time"
 
-	"github.com/go-jet/jet/v2/qrm"
+	"github.com/enginer/jet/v2/qrm"
 	"gopkg.in/guregu/null.v4"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/postgres"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/enum"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/table"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/view"
+	"github.com/enginer/jet/v2/internal/testutils"
+	. "github.com/enginer/jet/v2/postgres"
+	"github.com/enginer/jet/v2/tests/.gentestdata/jetdb/dvds/enum"
+	"github.com/enginer/jet/v2/tests/.gentestdata/jetdb/dvds/model"
+	. "github.com/enginer/jet/v2/tests/.gentestdata/jetdb/dvds/table"
+	"github.com/enginer/jet/v2/tests/.gentestdata/jetdb/dvds/view"
 )
 
 func TestSelect_ScanToStruct(t *testing.T) {
@@ -504,7 +504,7 @@ LIMIT 15;
 	require.Equal(t, len(filmsPerLanguage[0].Film), limit)
 }
 
-// https://github.com/go-jet/jet/issues/226
+// https://github.com/enginer/jet/issues/226
 func TestSelectDuplicateSlicesInDestination(t *testing.T) {
 
 	type Staffs struct {

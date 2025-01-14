@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/go-jet/jet/v2/internal/utils/filesys"
+	"github.com/enginer/jet/v2/internal/utils/filesys"
 	"path/filepath"
 	"strings"
 	"text/template"
 
-	"github.com/go-jet/jet/v2/generator/metadata"
-	"github.com/go-jet/jet/v2/internal/jet"
+	"github.com/enginer/jet/v2/generator/metadata"
+	"github.com/enginer/jet/v2/internal/jet"
 )
 
 // ProcessSchema will process schema metadata and constructs go files using generator Template

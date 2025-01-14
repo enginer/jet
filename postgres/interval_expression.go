@@ -2,8 +2,8 @@ package postgres
 
 import (
 	"fmt"
-	"github.com/go-jet/jet/v2/internal/jet"
-	"github.com/go-jet/jet/v2/internal/utils/datetime"
+	"github.com/enginer/jet/v2/internal/jet"
+	"github.com/enginer/jet/v2/internal/utils/datetime"
 	"strconv"
 	"strings"
 	"time"

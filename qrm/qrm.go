@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"github.com/go-jet/jet/v2/internal/utils/must"
+	"github.com/enginer/jet/v2/internal/utils/must"
 	"reflect"
 )
 
